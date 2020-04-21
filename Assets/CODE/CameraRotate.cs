@@ -5,21 +5,21 @@ using UnityEngine;
 
 public class CameraRotate : MonoBehaviour {
 	public Transform target;
-	float distance = 5;
-	float Speed = 30.0f;
+	public float distance = 5;
+	public float Speed = 30.0f;
 
-	float yMinLimit = -0f;
-	float yMaxLimit = 20f;
+	public float yMinLimit = -0f;
+	public float yMaxLimit = 20f;
 
-	float smoothTime = 2f;
+	public float smoothTime = 2f;
 
-	float rotationYAxis = 0.0f;
-	float rotationXAxis = 0.0f;
+	public float rotationYAxis = 0.0f;
+	public float rotationXAxis = 0.0f;
 
-	float velocityX = 0.0f;
-	float velocityY = 0.0f;
+	public float velocityX = 0.0f;
+	public float velocityY = 0.0f;
 
-	float minspeedx = .2f;
+	public float minspeedx = .2f;
 	private Touch touch;
 
 
@@ -55,7 +55,7 @@ public class CameraRotate : MonoBehaviour {
 				if (Input.GetMouseButton (0)) {
 					velocityX += Speed * Input.GetAxis ("Mouse X") * 0.02f;
 					velocityY += Speed * Input.GetAxis ("Mouse Y") * 0.02f;
-					minspeedx = (velocityX > 10) ? .2f : -.2f;
+					minspeedx = (velocityX > 10) ? .0f : -.0f;
 				}
 				#endif
 				rotationYAxis += velocityX;

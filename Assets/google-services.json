@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "653037780563",
+    "firebase_url": "https://kunnybun-app.firebaseio.com",
+    "project_id": "kunnybun-app",
+    "storage_bucket": "kunnybun-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653037780563:android:262c7751390eb0ddea90a6",
+        "android_client_info": {
+          "package_name": "com.hututu.kunnybunapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653037780563-1c48k5euvjbsdhv9855q5qsth3fdm512.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2G1yzIE44jVc4Gkbruysk3YuB_mvp5Aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653037780563-1c48k5euvjbsdhv9855q5qsth3fdm512.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "653037780563-luvbi34un5nb8aojnsgdp9fjvnt0j2of.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hututu.kunnybunapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

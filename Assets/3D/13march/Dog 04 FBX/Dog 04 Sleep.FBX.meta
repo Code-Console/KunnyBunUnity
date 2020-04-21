@@ -1,160 +1,458 @@
 fileFormatVersion: 2
 guid: ba3d94a9fd1914d31b1f68fa3b442ce8
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Group1
-    100004: Object001
-    100006: Panther
-    100008: PantherBone001
-    100010: PantherBone002
-    100012: PantherHead
-    100014: PantherHeadBone001
-    100016: PantherLLeg1
-    100018: PantherLLeg1 1
-    100020: PantherLLeg2
-    100022: PantherLLeg2 1
-    100024: PantherLLegCollarbone
-    100026: PantherLLegDigit01
-    100028: PantherLLegDigit01 1
-    100030: PantherLLegDigit02
-    100032: PantherLLegDigit02 1
-    100034: PantherLLegDigit11
-    100036: PantherLLegDigit11 1
-    100038: PantherLLegDigit12
-    100040: PantherLLegDigit12 1
-    100042: PantherLLegDigit21
-    100044: PantherLLegDigit21 1
-    100046: PantherLLegDigit22
-    100048: PantherLLegDigit22 1
-    100050: PantherLLegDigit31
-    100052: PantherLLegDigit31 1
-    100054: PantherLLegDigit32
-    100056: PantherLLegDigit32 1
-    100058: PantherLLegPalm
-    100060: PantherLLegPalm 1
-    100062: PantherLLegPlatform
-    100064: PantherLLegPlatform 1
-    100066: PantherNeck1
-    100068: PantherNeck2
-    100070: PantherNeck3
-    100072: PantherPelvis
-    100074: PantherRibcage
-    100076: PantherRLeg1
-    100078: PantherRLeg1 1
-    100080: PantherRLeg2
-    100082: PantherRLeg2 1
-    100084: PantherRLegDigit01
-    100086: PantherRLegDigit01 1
-    100088: PantherRLegDigit02
-    100090: PantherRLegDigit02 1
-    100092: PantherRLegDigit11
-    100094: PantherRLegDigit11 1
-    100096: PantherRLegDigit12
-    100098: PantherRLegDigit12 1
-    100100: PantherRLegDigit21
-    100102: PantherRLegDigit21 1
-    100104: PantherRLegDigit22
-    100106: PantherRLegDigit22 1
-    100108: PantherRLegDigit31
-    100110: PantherRLegDigit31 1
-    100112: PantherRLegDigit32
-    100114: PantherRLegDigit32 1
-    100116: PantherRLegPalm
-    100118: PantherRLegPalm 1
-    100120: PantherRLegPlatform
-    100122: PantherRLegPlatform 1
-    100124: PantherRLegShoulderblade
-    100126: PantherSpine1
-    100128: PantherSpine2
-    100130: PantherSpine3
-    100132: PantherTail1
-    100134: PantherTail2
-    100136: PantherTail3
-    100138: PantherTail4
-    400000: //RootNode
-    400002: Group1
-    400004: Object001
-    400006: Panther
-    400008: PantherBone001
-    400010: PantherBone002
-    400012: PantherHead
-    400014: PantherHeadBone001
-    400016: PantherLLeg1
-    400018: PantherLLeg1 1
-    400020: PantherLLeg2
-    400022: PantherLLeg2 1
-    400024: PantherLLegCollarbone
-    400026: PantherLLegDigit01
-    400028: PantherLLegDigit01 1
-    400030: PantherLLegDigit02
-    400032: PantherLLegDigit02 1
-    400034: PantherLLegDigit11
-    400036: PantherLLegDigit11 1
-    400038: PantherLLegDigit12
-    400040: PantherLLegDigit12 1
-    400042: PantherLLegDigit21
-    400044: PantherLLegDigit21 1
-    400046: PantherLLegDigit22
-    400048: PantherLLegDigit22 1
-    400050: PantherLLegDigit31
-    400052: PantherLLegDigit31 1
-    400054: PantherLLegDigit32
-    400056: PantherLLegDigit32 1
-    400058: PantherLLegPalm
-    400060: PantherLLegPalm 1
-    400062: PantherLLegPlatform
-    400064: PantherLLegPlatform 1
-    400066: PantherNeck1
-    400068: PantherNeck2
-    400070: PantherNeck3
-    400072: PantherPelvis
-    400074: PantherRibcage
-    400076: PantherRLeg1
-    400078: PantherRLeg1 1
-    400080: PantherRLeg2
-    400082: PantherRLeg2 1
-    400084: PantherRLegDigit01
-    400086: PantherRLegDigit01 1
-    400088: PantherRLegDigit02
-    400090: PantherRLegDigit02 1
-    400092: PantherRLegDigit11
-    400094: PantherRLegDigit11 1
-    400096: PantherRLegDigit12
-    400098: PantherRLegDigit12 1
-    400100: PantherRLegDigit21
-    400102: PantherRLegDigit21 1
-    400104: PantherRLegDigit22
-    400106: PantherRLegDigit22 1
-    400108: PantherRLegDigit31
-    400110: PantherRLegDigit31 1
-    400112: PantherRLegDigit32
-    400114: PantherRLegDigit32 1
-    400116: PantherRLegPalm
-    400118: PantherRLegPalm 1
-    400120: PantherRLegPlatform
-    400122: PantherRLegPlatform 1
-    400124: PantherRLegShoulderblade
-    400126: PantherSpine1
-    400128: PantherSpine2
-    400130: PantherSpine3
-    400132: PantherTail1
-    400134: PantherTail2
-    400136: PantherTail3
-    400138: PantherTail4
-    2100000: 'Material #2'
-    2100002: Default Material1
-    2300000: Object001
-    3300000: Object001
-    4300000: Object001
-    4300002: Group1
-    7400000: Take 001
-    9500000: //RootNode
-    13700000: Group1
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Group1
+  - first:
+      1: 100004
+    second: Object001
+  - first:
+      1: 100006
+    second: Panther
+  - first:
+      1: 100008
+    second: PantherBone001
+  - first:
+      1: 100010
+    second: PantherBone002
+  - first:
+      1: 100012
+    second: PantherHead
+  - first:
+      1: 100014
+    second: PantherHeadBone001
+  - first:
+      1: 100016
+    second: PantherLLeg1
+  - first:
+      1: 100018
+    second: PantherLLeg1 1
+  - first:
+      1: 100020
+    second: PantherLLeg2
+  - first:
+      1: 100022
+    second: PantherLLeg2 1
+  - first:
+      1: 100024
+    second: PantherLLegCollarbone
+  - first:
+      1: 100026
+    second: PantherLLegDigit01
+  - first:
+      1: 100028
+    second: PantherLLegDigit01 1
+  - first:
+      1: 100030
+    second: PantherLLegDigit02
+  - first:
+      1: 100032
+    second: PantherLLegDigit02 1
+  - first:
+      1: 100034
+    second: PantherLLegDigit11
+  - first:
+      1: 100036
+    second: PantherLLegDigit11 1
+  - first:
+      1: 100038
+    second: PantherLLegDigit12
+  - first:
+      1: 100040
+    second: PantherLLegDigit12 1
+  - first:
+      1: 100042
+    second: PantherLLegDigit21
+  - first:
+      1: 100044
+    second: PantherLLegDigit21 1
+  - first:
+      1: 100046
+    second: PantherLLegDigit22
+  - first:
+      1: 100048
+    second: PantherLLegDigit22 1
+  - first:
+      1: 100050
+    second: PantherLLegDigit31
+  - first:
+      1: 100052
+    second: PantherLLegDigit31 1
+  - first:
+      1: 100054
+    second: PantherLLegDigit32
+  - first:
+      1: 100056
+    second: PantherLLegDigit32 1
+  - first:
+      1: 100058
+    second: PantherLLegPalm
+  - first:
+      1: 100060
+    second: PantherLLegPalm 1
+  - first:
+      1: 100062
+    second: PantherLLegPlatform
+  - first:
+      1: 100064
+    second: PantherLLegPlatform 1
+  - first:
+      1: 100066
+    second: PantherNeck1
+  - first:
+      1: 100068
+    second: PantherNeck2
+  - first:
+      1: 100070
+    second: PantherNeck3
+  - first:
+      1: 100072
+    second: PantherPelvis
+  - first:
+      1: 100074
+    second: PantherRibcage
+  - first:
+      1: 100076
+    second: PantherRLeg1
+  - first:
+      1: 100078
+    second: PantherRLeg1 1
+  - first:
+      1: 100080
+    second: PantherRLeg2
+  - first:
+      1: 100082
+    second: PantherRLeg2 1
+  - first:
+      1: 100084
+    second: PantherRLegDigit01
+  - first:
+      1: 100086
+    second: PantherRLegDigit01 1
+  - first:
+      1: 100088
+    second: PantherRLegDigit02
+  - first:
+      1: 100090
+    second: PantherRLegDigit02 1
+  - first:
+      1: 100092
+    second: PantherRLegDigit11
+  - first:
+      1: 100094
+    second: PantherRLegDigit11 1
+  - first:
+      1: 100096
+    second: PantherRLegDigit12
+  - first:
+      1: 100098
+    second: PantherRLegDigit12 1
+  - first:
+      1: 100100
+    second: PantherRLegDigit21
+  - first:
+      1: 100102
+    second: PantherRLegDigit21 1
+  - first:
+      1: 100104
+    second: PantherRLegDigit22
+  - first:
+      1: 100106
+    second: PantherRLegDigit22 1
+  - first:
+      1: 100108
+    second: PantherRLegDigit31
+  - first:
+      1: 100110
+    second: PantherRLegDigit31 1
+  - first:
+      1: 100112
+    second: PantherRLegDigit32
+  - first:
+      1: 100114
+    second: PantherRLegDigit32 1
+  - first:
+      1: 100116
+    second: PantherRLegPalm
+  - first:
+      1: 100118
+    second: PantherRLegPalm 1
+  - first:
+      1: 100120
+    second: PantherRLegPlatform
+  - first:
+      1: 100122
+    second: PantherRLegPlatform 1
+  - first:
+      1: 100124
+    second: PantherRLegShoulderblade
+  - first:
+      1: 100126
+    second: PantherSpine1
+  - first:
+      1: 100128
+    second: PantherSpine2
+  - first:
+      1: 100130
+    second: PantherSpine3
+  - first:
+      1: 100132
+    second: PantherTail1
+  - first:
+      1: 100134
+    second: PantherTail2
+  - first:
+      1: 100136
+    second: PantherTail3
+  - first:
+      1: 100138
+    second: PantherTail4
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Group1
+  - first:
+      4: 400004
+    second: Object001
+  - first:
+      4: 400006
+    second: Panther
+  - first:
+      4: 400008
+    second: PantherBone001
+  - first:
+      4: 400010
+    second: PantherBone002
+  - first:
+      4: 400012
+    second: PantherHead
+  - first:
+      4: 400014
+    second: PantherHeadBone001
+  - first:
+      4: 400016
+    second: PantherLLeg1
+  - first:
+      4: 400018
+    second: PantherLLeg1 1
+  - first:
+      4: 400020
+    second: PantherLLeg2
+  - first:
+      4: 400022
+    second: PantherLLeg2 1
+  - first:
+      4: 400024
+    second: PantherLLegCollarbone
+  - first:
+      4: 400026
+    second: PantherLLegDigit01
+  - first:
+      4: 400028
+    second: PantherLLegDigit01 1
+  - first:
+      4: 400030
+    second: PantherLLegDigit02
+  - first:
+      4: 400032
+    second: PantherLLegDigit02 1
+  - first:
+      4: 400034
+    second: PantherLLegDigit11
+  - first:
+      4: 400036
+    second: PantherLLegDigit11 1
+  - first:
+      4: 400038
+    second: PantherLLegDigit12
+  - first:
+      4: 400040
+    second: PantherLLegDigit12 1
+  - first:
+      4: 400042
+    second: PantherLLegDigit21
+  - first:
+      4: 400044
+    second: PantherLLegDigit21 1
+  - first:
+      4: 400046
+    second: PantherLLegDigit22
+  - first:
+      4: 400048
+    second: PantherLLegDigit22 1
+  - first:
+      4: 400050
+    second: PantherLLegDigit31
+  - first:
+      4: 400052
+    second: PantherLLegDigit31 1
+  - first:
+      4: 400054
+    second: PantherLLegDigit32
+  - first:
+      4: 400056
+    second: PantherLLegDigit32 1
+  - first:
+      4: 400058
+    second: PantherLLegPalm
+  - first:
+      4: 400060
+    second: PantherLLegPalm 1
+  - first:
+      4: 400062
+    second: PantherLLegPlatform
+  - first:
+      4: 400064
+    second: PantherLLegPlatform 1
+  - first:
+      4: 400066
+    second: PantherNeck1
+  - first:
+      4: 400068
+    second: PantherNeck2
+  - first:
+      4: 400070
+    second: PantherNeck3
+  - first:
+      4: 400072
+    second: PantherPelvis
+  - first:
+      4: 400074
+    second: PantherRibcage
+  - first:
+      4: 400076
+    second: PantherRLeg1
+  - first:
+      4: 400078
+    second: PantherRLeg1 1
+  - first:
+      4: 400080
+    second: PantherRLeg2
+  - first:
+      4: 400082
+    second: PantherRLeg2 1
+  - first:
+      4: 400084
+    second: PantherRLegDigit01
+  - first:
+      4: 400086
+    second: PantherRLegDigit01 1
+  - first:
+      4: 400088
+    second: PantherRLegDigit02
+  - first:
+      4: 400090
+    second: PantherRLegDigit02 1
+  - first:
+      4: 400092
+    second: PantherRLegDigit11
+  - first:
+      4: 400094
+    second: PantherRLegDigit11 1
+  - first:
+      4: 400096
+    second: PantherRLegDigit12
+  - first:
+      4: 400098
+    second: PantherRLegDigit12 1
+  - first:
+      4: 400100
+    second: PantherRLegDigit21
+  - first:
+      4: 400102
+    second: PantherRLegDigit21 1
+  - first:
+      4: 400104
+    second: PantherRLegDigit22
+  - first:
+      4: 400106
+    second: PantherRLegDigit22 1
+  - first:
+      4: 400108
+    second: PantherRLegDigit31
+  - first:
+      4: 400110
+    second: PantherRLegDigit31 1
+  - first:
+      4: 400112
+    second: PantherRLegDigit32
+  - first:
+      4: 400114
+    second: PantherRLegDigit32 1
+  - first:
+      4: 400116
+    second: PantherRLegPalm
+  - first:
+      4: 400118
+    second: PantherRLegPalm 1
+  - first:
+      4: 400120
+    second: PantherRLegPlatform
+  - first:
+      4: 400122
+    second: PantherRLegPlatform 1
+  - first:
+      4: 400124
+    second: PantherRLegShoulderblade
+  - first:
+      4: 400126
+    second: PantherSpine1
+  - first:
+      4: 400128
+    second: PantherSpine2
+  - first:
+      4: 400130
+    second: PantherSpine3
+  - first:
+      4: 400132
+    second: PantherTail1
+  - first:
+      4: 400134
+    second: PantherTail2
+  - first:
+      4: 400136
+    second: PantherTail3
+  - first:
+      4: 400138
+    second: PantherTail4
+  - first:
+      21: 2100000
+    second: Material #2
+  - first:
+      21: 2100002
+    second: Default Material1
+  - first:
+      23: 2300000
+    second: Object001
+  - first:
+      33: 3300000
+    second: Object001
+  - first:
+      43: 4300000
+    second: Object001
+  - first:
+      43: 4300002
+    second: Group1
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Group1
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -183,6 +481,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Take 001
       takeName: Take 001
+      internalID: 0
       firstFrame: 0
       lastFrame: 100
       wrapMode: 0
@@ -191,7 +490,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -215,6 +514,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -222,18 +522,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.0254
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -242,10 +543,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -255,13 +556,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
